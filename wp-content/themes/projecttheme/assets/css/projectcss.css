@@ -73,3 +73,18 @@ header div a img {
     height: 100px;
 }
 
+.page-v1, .contactpage-v1 {
+    display: block;
+    text-align: center;
+}
+
+.page-v1 img, .contactpage-v1 img {
+    border-radius: 1em;
+    border: 2px solid var(--blue);
+}
+#contactpage-v1 {
+    border-radius: 1em;
+    border: 2px solid var(--blue);
+    background-color: var(--orange);
+    color: var(--blue);
+}
