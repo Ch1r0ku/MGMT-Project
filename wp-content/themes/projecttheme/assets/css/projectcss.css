@@ -1,0 +1,75 @@
+/*
+* Theme Name: Project
+* Author: Roman Lysenko & Viraj Shah
+* Description: This is the theme for CMS Project
+* Requires at least: 5.3
+* Tested up to: 8.0
+* Requires PHP: 5.6
+* Version: 1.7
+*/
+
+:root {
+    --white: #EDE7E3;
+    --orange: #FFA62B;
+    --lightblue: #82C0CC;
+    --aqua: #489FB5;
+    --blue: #16697A;
+}
+
+html {
+    margin: 0px !important;
+    padding: 10px ;
+}
+body {
+    margin: 0px;
+    background-color: var(--white);
+    color: var(--blue);
+}
+p {
+    color: var(--blue);
+}
+a {
+    color: var(--blue) !important;
+    background-color: var(--white);
+}
+h1, h2, h3, h4{
+    color: var(--blue) !important;
+}
+.button.wp-element-button.product_type_simple, .button.wp-element-button.product_type_grouped, span.onsale {
+    color: var(--white) !important;
+    background-color: var(--blue) !important;
+}
+.price, .stock {
+    color: var(--aqua) !important;
+}
+.ab-item {
+    color: white !important;
+}
+header {
+    display: flex;
+    align-items: center;
+    height: 125px;
+    color: var(--blue);
+}
+header div {
+    height: 115px;
+    flex-grow: 1;
+}
+.menu-main-container {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    margin: 0px;
+    list-style: none;
+    align-items: center;
+}
+.menu li {
+    padding: 0px 10px;
+}
+header div a img {
+    width: 100px;
+    height: 100px;
+}
+
