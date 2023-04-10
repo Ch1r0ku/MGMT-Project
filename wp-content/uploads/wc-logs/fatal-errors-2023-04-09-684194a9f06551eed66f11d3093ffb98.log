@@ -1,0 +1,96 @@
+2023-04-09T23:33:03+00:00 CRITICAL syntax error, unexpected token "," in C:\wamp64\www\project\wordpress\wp-content\themes\projecttheme\functions.php on line 662
+
+2023-04-09T23:35:04+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_widgets_init" not found or invalid function name in C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\wamp64\www\project\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\project\wordpress\wp-includes\widgets.php(1854): do_action('widgets_init')
+#3 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#4 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\wamp64\www\project\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\project\wordpress\wp-settings.php(623): do_action('init')
+#7 C:\wamp64\www\project\wordpress\wp-config.php(96): require_once('C:\\wamp64\\www\\p...')
+#8 C:\wamp64\www\project\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\p...')
+#9 C:\wamp64\www\project\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+  thrown in C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php on line 308
+
+2023-04-09T23:37:04+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_widgets_init" not found or invalid function name in C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\wamp64\www\project\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\project\wordpress\wp-includes\widgets.php(1854): do_action('widgets_init')
+#3 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#4 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\wamp64\www\project\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\project\wordpress\wp-settings.php(623): do_action('init')
+#7 C:\wamp64\www\project\wordpress\wp-config.php(96): require_once('C:\\wamp64\\www\\p...')
+#8 C:\wamp64\www\project\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\p...')
+#9 C:\wamp64\www\project\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+  thrown in C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php on line 308
+
+2023-04-09T23:37:13+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_widgets_init" not found or invalid function name in C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\wamp64\www\project\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\project\wordpress\wp-includes\widgets.php(1854): do_action('widgets_init')
+#3 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#4 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\wamp64\www\project\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\project\wordpress\wp-settings.php(623): do_action('init')
+#7 C:\wamp64\www\project\wordpress\wp-config.php(96): require_once('C:\\wamp64\\www\\p...')
+#8 C:\wamp64\www\project\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\p...')
+#9 C:\wamp64\www\project\wordpress\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\p...')
+#10 C:\wamp64\www\project\wordpress\wp-admin\index.php(10): require_once('C:\\wamp64\\www\\p...')
+#11 {main}
+  thrown in C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php on line 308
+
+2023-04-09T23:37:19+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_widgets_init" not found or invalid function name in C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\wamp64\www\project\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\project\wordpress\wp-includes\widgets.php(1854): do_action('widgets_init')
+#3 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#4 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\wamp64\www\project\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\project\wordpress\wp-settings.php(623): do_action('init')
+#7 C:\wamp64\www\project\wordpress\wp-config.php(96): require_once('C:\\wamp64\\www\\p...')
+#8 C:\wamp64\www\project\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\p...')
+#9 C:\wamp64\www\project\wordpress\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\p...')
+#10 C:\wamp64\www\project\wordpress\wp-admin\plugins.php(10): require_once('C:\\wamp64\\www\\p...')
+#11 {main}
+  thrown in C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php on line 308
+
+2023-04-09T23:37:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_widgets_init" not found or invalid function name in C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\wamp64\www\project\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\project\wordpress\wp-includes\widgets.php(1854): do_action('widgets_init')
+#3 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#4 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\wamp64\www\project\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\project\wordpress\wp-settings.php(623): do_action('init')
+#7 C:\wamp64\www\project\wordpress\wp-config.php(96): require_once('C:\\wamp64\\www\\p...')
+#8 C:\wamp64\www\project\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\p...')
+#9 C:\wamp64\www\project\wordpress\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\p...')
+#10 C:\wamp64\www\project\wordpress\wp-admin\plugins.php(10): require_once('C:\\wamp64\\www\\p...')
+#11 {main}
+  thrown in C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php on line 308
+
+2023-04-09T23:37:48+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_widgets_init" not found or invalid function name in C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\wamp64\www\project\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\wamp64\www\project\wordpress\wp-includes\widgets.php(1854): do_action('widgets_init')
+#3 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(308): wp_widgets_init('')
+#4 C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\wamp64\www\project\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\wamp64\www\project\wordpress\wp-settings.php(623): do_action('init')
+#7 C:\wamp64\www\project\wordpress\wp-config.php(96): require_once('C:\\wamp64\\www\\p...')
+#8 C:\wamp64\www\project\wordpress\wp-load.php(50): require_once('C:\\wamp64\\www\\p...')
+#9 C:\wamp64\www\project\wordpress\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\p...')
+#10 C:\wamp64\www\project\wordpress\wp-admin\plugins.php(10): require_once('C:\\wamp64\\www\\p...')
+#11 {main}
+  thrown in C:\wamp64\www\project\wordpress\wp-includes\class-wp-hook.php on line 308
+

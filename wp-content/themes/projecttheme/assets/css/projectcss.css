@@ -88,3 +88,18 @@ header div a img {
     background-color: var(--orange);
     color: var(--blue);
 }
+
+footer {
+    text-align: center ;
+    margin: 0 !important;
+}
+
+.site-logo {
+    margin: 0 ;
+    
+}
+
+.site-logo img {
+    scale: 0.7 !important;
+    border-radius: 1rem;
+}

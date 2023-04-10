@@ -655,7 +655,54 @@ if ( ! function_exists( 'wp_get_list_item_separator' ) ) :
 	}
 endif;
 
+// custom footer widgets
+function footer_widgets_init(){
+    // Area One
+    register_sidebar(array(
+        'name' => __( 'Footer Part One', 'footerwidget' ),
+        'id' => 'footer-part-one',
+        'description' => __( 'The First footer widget', 'footerwidget' ),
+        'before_widget' => '<div class="logo-widget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4 class="widget-title">',
+        'after_title' => '</h4>',
+    ));
 
+    // Area Two
+    register_sidebar(array(
+        'name' => __( 'Footer Part Two', 'footerwidget' ),
+        'id' => 'footer-part-two',
+        'description' => __( 'The Second footer widget', 'footerwidget' ),
+        'before_widget' => '<div class="logo-widget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4 class="widget-title">',
+        'after_title' => '</h4>',
+    ));
+
+    // Area Three
+    register_sidebar( array(
+        'name' => __('Footer Part Three', 'project'),
+        'id' => 'footer-part-three',
+        'description' => __( 'The Third footer widget', 'project' ),
+        'before_widget' => '<div class="logo-widget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4 class="widget-title">',
+        'after_title' => '</h4>',
+    ));
+
+    // Area Four
+    register_sidebar(array(
+        'name' => __( 'Footer Part Four', 'project' ),
+        'id' => 'footer-part-four',
+        'description' => __( 'The Forth footer widget', 'project' ),
+        'before_widget' => '<div class="logo-widget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4 class="widget-title">',
+        'after_title' => '</h4>',
+    ));
+  }
+
+  add_action('widgets_init', 'footer_widgets_init');
 
 
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5);
