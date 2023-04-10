@@ -11,7 +11,7 @@
 	<div class="col-sm-12 col-md-3 col-lg-3">
 		<?php dynamic_sidebar('footer_area_four'); ?>
 	</div>
-	<p>&copy; All Rights Reserved. <?php $current_year = current_time('Y');
+	<p class="bottom-footer">&copy; All Rights Reserved. <?php $current_year = current_time('Y');
 							echo $current_year; ?></p>
 </footer>
 <?php wp_footer(); ?>

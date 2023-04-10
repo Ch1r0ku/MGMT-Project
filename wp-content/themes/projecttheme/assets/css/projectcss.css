@@ -32,6 +32,10 @@ a {
     color: var(--blue) !important;
     background-color: var(--white);
 }
+ul.wc-tabs li, ul.wc-tabs li a:focus {
+    color: var(--blue) !important;
+    background-color: var(--white) !important;
+}
 h1, h2, h3, h4{
     color: var(--blue) !important;
 }
@@ -72,6 +76,9 @@ header div a img {
     width: 100px;
     height: 100px;
 }
+.site-header {
+    margin-bottom: 2em;
+}
 
 .page-v1, .contactpage-v1 {
     display: block;
@@ -89,7 +96,7 @@ header div a img {
     color: var(--blue);
 }
 
-footer {
+.bottom-footer {
     text-align: center ;
     margin: 0 !important;
 }
